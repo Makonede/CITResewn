@@ -53,6 +53,7 @@ jar {
     from rootProject.file('LICENSE')
 }
 
+/*
 if (stonecutter.current().isActiveVersion()) {
     rootProject.tasks.register('buildActive') {
         setGroup 'project'
@@ -113,3 +114,4 @@ if (stonecutter.current().isActiveVersion()) {
         modrinthTask.mustRunAfter remapJarTask
     }
 }
+*/

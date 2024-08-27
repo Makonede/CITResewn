@@ -59,6 +59,7 @@ jar {
     from rootProject.file('LICENSE')
 }
 
+/*
 if (stonecutter.current().isActiveVersion()) {
     loom.runConfigs.client.ideConfigGenerated = true
 
@@ -82,3 +83,4 @@ if (stonecutter.current().isActiveVersion()) {
         modrinthTask.mustRunAfter remapJarTask
     }
 }
+*/
